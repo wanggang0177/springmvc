@@ -48,9 +48,9 @@ public class DataBindController
 	{
 		
 //		request.getParameter("");
-		System.out.println("urlParam = " + urlParam);
-		System.out.println("formParam" + formParam);
-		System.out.println("formFile = " + formFile.getOriginalFilename());
+//		System.out.println("urlParam = " + urlParam);
+//		System.out.println("formParam" + formParam);
+//		System.out.println("formFile = " + formFile.getOriginalFilename());
 		
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("urlParam", urlParam);

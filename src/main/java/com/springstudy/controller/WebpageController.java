@@ -52,4 +52,12 @@ public class WebpageController
         mv.setViewName("databind2");
         return mv;
 	}
+	
+	@RequestMapping(value="/interceptor", method = {RequestMethod.GET})
+	public ModelAndView interceptor()
+	{
+		 ModelAndView mv =new ModelAndView();
+	     mv.setViewName("interceptor");
+	     return mv;
+	}
 }
